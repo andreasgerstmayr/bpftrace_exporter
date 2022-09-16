@@ -1,0 +1,35 @@
+# HELP bpftrace_multi_a bpftrace variable @a
+# TYPE bpftrace_multi_a gauge
+bpftrace_multi_a 1
+# HELP bpftrace_multi_b bpftrace variable @b
+# TYPE bpftrace_multi_b counter
+bpftrace_multi_b 1
+# HELP bpftrace_multi_c bpftrace map @c
+# TYPE bpftrace_multi_c gauge
+bpftrace_multi_c{key="0"} 2
+bpftrace_multi_c{key="1"} 3
+# HELP bpftrace_multi_d bpftrace map @d
+# TYPE bpftrace_multi_d counter
+bpftrace_multi_d{key="0"} 1
+bpftrace_multi_d{key="1"} 1
+# HELP bpftrace_multi_e bpftrace histogram @e
+# TYPE bpftrace_multi_e histogram
+bpftrace_multi_e_bucket{le="1"} 1
+bpftrace_multi_e_bucket{le="+Inf"} 1
+bpftrace_multi_e_sum -1
+bpftrace_multi_e_count 1
+# HELP bpftrace_multi_f bpftrace histogram @f
+# TYPE bpftrace_multi_f histogram
+bpftrace_multi_f_bucket{key="0",le="3"} 1
+bpftrace_multi_f_bucket{key="0",le="7"} 1
+bpftrace_multi_f_bucket{key="0",le="15"} 2
+bpftrace_multi_f_bucket{key="0",le="+Inf"} 2
+bpftrace_multi_f_sum{key="0"} -1
+bpftrace_multi_f_count{key="0"} 2
+bpftrace_multi_f_bucket{key="1",le="3"} 1
+bpftrace_multi_f_bucket{key="1",le="+Inf"} 1
+bpftrace_multi_f_sum{key="1"} -1
+bpftrace_multi_f_count{key="1"} 1
+# HELP bpftrace_multi_probes_total number of attached probes
+# TYPE bpftrace_multi_probes_total gauge
+bpftrace_multi_probes_total 1

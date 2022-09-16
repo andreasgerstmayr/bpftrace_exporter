@@ -1,0 +1,5 @@
+BEGIN
+{
+    @a[0] = count();
+    @a[1] = count();
+}

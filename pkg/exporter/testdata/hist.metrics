@@ -1,0 +1,12 @@
+# HELP bpftrace_hist_h bpftrace histogram @h
+# TYPE bpftrace_hist_h histogram
+bpftrace_hist_h_bucket{le="3"} 2
+bpftrace_hist_h_bucket{le="7"} 2
+bpftrace_hist_h_bucket{le="15"} 3
+bpftrace_hist_h_bucket{le="31"} 5
+bpftrace_hist_h_bucket{le="+Inf"} 5
+bpftrace_hist_h_sum -1
+bpftrace_hist_h_count 5
+# HELP bpftrace_hist_probes_total number of attached probes
+# TYPE bpftrace_hist_probes_total gauge
+bpftrace_hist_probes_total 1

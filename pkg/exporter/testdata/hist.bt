@@ -1,0 +1,8 @@
+BEGIN
+{
+    @h = hist(2);
+    @h = hist(3);
+    @h = hist(10);
+    @h = hist(16);
+    @h = hist(16);
+}

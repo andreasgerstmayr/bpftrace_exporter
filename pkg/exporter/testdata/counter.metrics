@@ -1,0 +1,6 @@
+# HELP bpftrace_counter_a bpftrace variable @a
+# TYPE bpftrace_counter_a counter
+bpftrace_counter_a 1
+# HELP bpftrace_counter_probes_total number of attached probes
+# TYPE bpftrace_counter_probes_total gauge
+bpftrace_counter_probes_total 1

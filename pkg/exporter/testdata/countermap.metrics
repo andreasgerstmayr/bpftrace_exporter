@@ -1,0 +1,7 @@
+# HELP bpftrace_countermap_a bpftrace map @a
+# TYPE bpftrace_countermap_a counter
+bpftrace_countermap_a{key="0"} 1
+bpftrace_countermap_a{key="1"} 1
+# HELP bpftrace_countermap_probes_total number of attached probes
+# TYPE bpftrace_countermap_probes_total gauge
+bpftrace_countermap_probes_total 1

@@ -1,0 +1,6 @@
+# HELP bpftrace_scalar_a bpftrace variable @a
+# TYPE bpftrace_scalar_a gauge
+bpftrace_scalar_a 1
+# HELP bpftrace_scalar_probes_total number of attached probes
+# TYPE bpftrace_scalar_probes_total gauge
+bpftrace_scalar_probes_total 1

@@ -1,0 +1,13 @@
+BEGIN
+{
+    @a = 1;
+    @b = count();
+    @c[0] = 2;
+    @c[1] = 3;
+    @d[0] = count();
+    @d[1] = count();
+    @e = hist(1);
+    @f[0] = hist(2);
+    @f[0] = hist(10);
+    @f[1] = hist(3);
+}

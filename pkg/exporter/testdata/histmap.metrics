@@ -1,0 +1,16 @@
+
+# HELP bpftrace_histmap_h bpftrace histogram @h
+# TYPE bpftrace_histmap_h histogram
+bpftrace_histmap_h_bucket{key="0",le="3"} 2
+bpftrace_histmap_h_bucket{key="0",le="7"} 2
+bpftrace_histmap_h_bucket{key="0",le="15"} 3
+bpftrace_histmap_h_bucket{key="0",le="+Inf"} 3
+bpftrace_histmap_h_sum{key="0"} -1
+bpftrace_histmap_h_count{key="0"} 3
+bpftrace_histmap_h_bucket{key="1",le="31"} 2
+bpftrace_histmap_h_bucket{key="1",le="+Inf"} 2
+bpftrace_histmap_h_sum{key="1"} -1
+bpftrace_histmap_h_count{key="1"} 2
+# HELP bpftrace_histmap_probes_total number of attached probes
+# TYPE bpftrace_histmap_probes_total gauge
+bpftrace_histmap_probes_total 1
